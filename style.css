@@ -1,0 +1,133 @@
+
+
+
+
+
+@media screen and (max-width: 1440px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: hsl(0, 100%, 74%);
+    }
+    main{
+        margin: auto;
+        width: 68%;
+        
+        
+    }
+    
+    .div-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        
+        
+        
+    }
+    p{
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-size: 16px;
+    }
+    h1{
+        color: white;
+        margin-bottom: 30px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+    }
+    .first-div{
+        width: 100%; 
+    }
+    
+    .second-div {
+        width: 100%;
+        padding-left: 3em;
+    }
+    
+    .form {
+        border: none;
+        border-radius: .5em;
+        background-color: white;
+        padding: 2em;
+        box-shadow: 0px 3px hwb(250 3% 95% / 0.397);
+        
+    
+    }
+    .top-button {
+        background-color: hsl(248, 32%, 49%);
+        margin-bottom: 1em;
+        border: none;
+        border-radius: .5em;
+        padding: 10px 30px;
+        color: white;
+        width: 100%;
+        box-shadow: 0px 3px hwb(250 3% 95% / 0.397);
+       
+    }
+    
+    .bottom-button {
+        color: white;
+        background-color: hsl(154, 59%, 51%);
+        margin-top: 1em;
+        border: none;
+        border-radius: 2px;
+        padding: 10px 30px;
+        width: 100%;
+        font-size: 10px;
+        font-weight: 700;
+    }
+    .form-container > div {
+        padding: 8px;
+        width: 100%;
+        font-size: 10px;
+        font-family: 'Poppins', sans-serif;
+    
+    }
+    input{
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+    }
+    
+}
+@media screen and (max-width: 375px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .div-container{
+        flex-direction: column;
+    }
+    /* .first-div{
+        align-items: center;
+    } */
+    .top-button{
+        width: 100%;
+        text-align: center;
+        
+    }
+    .bottom-button{
+        width: 100%;
+        text-align: center;
+    }
+}
+    .form-container > input {
+        text-align: center;
+        width: 100%;
+        align-items: center;
+        
+    }
+    .h1 {
+        text-align: center;
+        width: fit-content;
+       
+        
+        
+    }
+
+    
